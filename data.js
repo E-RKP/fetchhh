@@ -21,4 +21,9 @@ fetch("https://jsonplaceholder.typicode.com/users").then(function(placeholder){
     
   }
  
+}).catch(function(){
+  const u = document.createElement('p')
+  u.textContent = 'A COGLIONE'
+  document.body.appendChild(u)
+
 })
